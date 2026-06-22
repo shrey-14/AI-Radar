@@ -1,0 +1,33 @@
+# ── Scheduling ────────────────────────────────────────────────────
+prefect>=2.0
+
+# ── LLM ──────────────────────────────────────────────────────────
+langchain-groq
+langchain-core
+groq
+
+# ── Scraping ─────────────────────────────────────────────────────
+arxiv
+feedparser
+beautifulsoup4
+crawl4ai
+requests
+httpx
+google-api-python-client
+youtube-transcript-api
+huggingface-hub
+
+# ── Storage ───────────────────────────────────────────────────────
+supabase
+
+# ── Config & Validation ───────────────────────────────────────────
+pydantic>=2.0
+pydantic-settings
+python-dotenv
+
+# ── API Clients ─────────────────────────────────────────────────
+fastapi
+uvicorn
+slowapi
+
+isodate

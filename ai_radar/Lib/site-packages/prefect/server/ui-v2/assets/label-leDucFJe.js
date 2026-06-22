@@ -1,0 +1,2 @@
+import{o as e}from"./vendor-codemirror-B3tGe8Gh.js";import{vt as t}from"./vendor-radix-Ded9LL8V.js";import{h as n}from"./button-B1qHyd9c.js";var r=e();function i({className:e,...i}){return(0,r.jsx)(t,{"data-slot":`label`,className:n(`flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50`,e),...i})}export{i as t};
+//# sourceMappingURL=label-leDucFJe.js.map

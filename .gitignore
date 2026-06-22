@@ -1,0 +1,48 @@
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.production
+.env*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+*.swp
+
+# Pipeline state and eval output
+pipeline/.eval_state.json
+pipeline/eval_report.json
+logs/
+
+# Next.js
+.next/
+out/
+node_modules/
+npm-debug.log*
+
+# Prefect local state
+.prefect/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc files from development
+cookies.txt
+ai_explained_sample.txt

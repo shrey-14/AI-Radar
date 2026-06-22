@@ -1,0 +1,2 @@
+import{o as e}from"./vendor-codemirror-B3tGe8Gh.js";import{Dr as t,Er as n,kr as r}from"./index-kAWNZ8kE.js";var i=e(),a=()=>(0,i.jsx)(`div`,{className:`flex items-center gap-2`,children:(0,i.jsx)(n,{children:(0,i.jsx)(r,{children:(0,i.jsx)(t,{className:`text-xl font-semibold`,children:`Deployments`})})})});export{a as t};
+//# sourceMappingURL=header-DgvQu4Fu.js.map
