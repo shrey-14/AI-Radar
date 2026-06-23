@@ -30,6 +30,10 @@ jobs:
           JINA_API_KEY:          ${{ secrets.JINA_API_KEY }}
           SUPABASE_URL:          ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY:          ${{ secrets.SUPABASE_KEY }}
+          SUPABASE_SERVICE_KEY:  ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GITHUB_TOKEN:          ${{ secrets.GITHUB_TOKEN }}
+          YOUTUBE_API_KEY:       ${{ secrets.YOUTUBE_API_KEY }}
+          PRODUCT_HUNT_TOKEN:    ${{ secrets.PRODUCT_HUNT_TOKEN }}
           OPENROUTER_API_KEY:    ${{ secrets.OPENROUTER_API_KEY }}
           ALERT_EMAIL_FROM:      ${{ secrets.ALERT_EMAIL_FROM }}
           ALERT_EMAIL_PASSWORD:  ${{ secrets.ALERT_EMAIL_PASSWORD }}
