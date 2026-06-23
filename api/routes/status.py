@@ -63,3 +63,18 @@ def get_status():
         benchmarks=_section_status(TABLE_MAP["benchmarks"]),
         talks=     _section_status(TABLE_MAP["talks"]),
     )
+
+@router.get("/debug")
+def debug_status():
+    """Temporary debug endpoint — remove after fixing."""
+    db = get_db()
+    try:
+        res = db.table("research_papers").select("id", count="exact").execute()
+        return {
+            "count": res.count,
+            "data_length": len(res.data) if res.data else 0,
+            "first_row": res.data[0] if res.data else None,
+            "raw_count": res.count,
+        }
+    except Exception as e:
+        return {"error": str(e), "type": type(e).__name__}
