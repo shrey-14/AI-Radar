@@ -197,4 +197,3 @@ yarl==1.24.2
 youtube-transcript-api==1.2.4
 zipp==4.1.0
 zstandard==0.25.0
-httpcore==0.17.3
