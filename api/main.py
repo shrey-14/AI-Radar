@@ -37,14 +37,9 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "https://ai-radar-m8rdc2fmf-shreys-projects.vercel.app",
-        "https://ai-radar-plum.vercel.app/",
-        "https://ai-radar-git-master-shreys-projects.vercel.app/"
-        "http://localhost:3000",
-    ],
+    allow_origin_regex=r"https://ai-radar.*\.vercel\.app",
     allow_credentials=False,
-    allow_methods=["GET", "POST"],
+    allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
 
